@@ -142,7 +142,7 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             text-align: left;
             max-width: 500px;
-            margin: 0 auto;
+            margin: 0 auto 40px auto;
             transition: transform 0.3s ease;
         }
 
@@ -185,6 +185,46 @@
             background: var(--accent1);
         }
 
+        .links-section {
+            text-align: left;
+            font-size: 0.95em;
+            margin-top: 40px;
+            color: #555;
+        }
+
+        .links-section h2 {
+            font-size: 1.2em;
+            color: var(--accent1);
+            margin-bottom: 10px;
+        }
+
+        .links-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .links-section li {
+            margin: 6px 0;
+        }
+
+        .links-section a {
+            color: var(--accent1);
+            text-decoration: none;
+        }
+
+        .links-section a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #333;
+            padding: 20px 10px;
+            margin-top: 60px;
+            opacity: 0.8;
+        }
+
         @keyframes fadeInUp {
             from { opacity: 0; transform: translateY(30px); }
             to { opacity: 1; transform: translateY(0); }
@@ -202,7 +242,6 @@
             z-index: 1;
         }
 
-        /* --- Social ikonok az oldal alján --- */
         .social-icons {
             position: fixed;
             bottom: 20px;
@@ -269,6 +308,21 @@
         </div>
         <pre class="jid-code" id="jidCode"><code>JOTA2025-HU-172C5</code></pre>
     </div>
+
+    <div class="links-section">
+        <h2>LoRa linkek:</h2>
+        <ul>
+            <li><a href="https://14eshollok.hu" target="_blank">LoRa APRS</a></li>
+            <li><a href="https://www.cserkesz.hu" target="_blank">Meshtastic</a></li>
+            <li><a href="https://scout.org" target="_blank">MeshCore</a></li>
+            <li><a href="https://www.jotajoti.info" target="_blank">TinyGS</a></li>
+            <li><a href="https://github.com" target="_blank">Reticulum Network</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        Készítette: peros – 2025
+    </footer>
 </div>
 
 <div class="wave"></div>
