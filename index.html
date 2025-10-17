@@ -146,11 +146,11 @@
             transition: transform 0.3s ease;
         }
 
-        .jit-box:hover {
+        .jid-box:hover {
             transform: translateY(-2px);
         }
 
-        .jit-header {
+        .jid-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -159,7 +159,7 @@
             margin-bottom: 8px;
         }
 
-        .jit-code {
+        .jid-code {
             background: #fffdf9;
             border-radius: 8px;
             padding: 10px;
@@ -257,17 +257,17 @@
     </p>
 
     <div class="buttons">
-        <a href="https://forms.gle/example" target="_blank" class="btn">📝 JIT beküldés</a>
+        <a href="https://forms.gle/example" target="_blank" class="btn">📝 JID beküldés</a>
         <a href="https://drive.google.com/file/d/1pE80m39bKuZOjcUJ_z5nNf-87_sMprIG/view" target="_blank" class="btn">📻 IRC segédlet</a>
         <a href="https://www.jotajoti.info" target="_blank" class="btn">🌍 Hivatalos oldal</a>
     </div>
 
-    <div class="jit-box">
-        <div class="jit-header">
-            <span>JIT kódunk</span>
+    <div class="jid-box">
+        <div class="jid-header">
+            <span>JID kódunk</span>
             <button class="copy-btn">Másolás</button>
         </div>
-        <pre class="jit-code" id="jitCode"><code>JOTA2025-HU-172C5</code></pre>
+        <pre class="jid-code" id="jidCode"><code>JOTA2025-HU-172C5</code></pre>
     </div>
 </div>
 
@@ -288,7 +288,7 @@
 
 <script>
     const copyBtn = document.querySelector('.copy-btn');
-    const codeEl = document.getElementById('jitCode');
+    const codeEl = document.getElementById('jidCode');
 
     copyBtn.addEventListener('click', async () => {
         try {
